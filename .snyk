@@ -1,0 +1,77 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - stex > loggly > request > hawk > hoek:
+        patched: '2020-08-16T07:42:48.897Z'
+    - stex > loggly > request > hawk > boom > hoek:
+        patched: '2020-08-16T07:42:48.897Z'
+    - stex > loggly > request > hawk > sntp > hoek:
+        patched: '2020-08-16T07:42:48.897Z'
+    - stex > gulp-coveralls > coveralls > request > hawk > hoek:
+        patched: '2020-08-16T07:42:48.897Z'
+    - stex > gulp-spawn-mocha > coveralls > request > hawk > hoek:
+        patched: '2020-08-16T07:42:48.897Z'
+    - stex > loggly > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-08-16T07:42:48.897Z'
+    - stex > gulp-coveralls > coveralls > request > hawk > boom > hoek:
+        patched: '2020-08-16T07:42:48.897Z'
+    - stex > gulp-spawn-mocha > coveralls > request > hawk > boom > hoek:
+        patched: '2020-08-16T07:42:48.897Z'
+    - stex > gulp-coveralls > coveralls > request > hawk > sntp > hoek:
+        patched: '2020-08-16T07:42:48.897Z'
+    - stex > gulp-spawn-mocha > coveralls > request > hawk > sntp > hoek:
+        patched: '2020-08-16T07:42:48.897Z'
+    - stex > gulp-coveralls > coveralls > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-08-16T07:42:48.897Z'
+    - stex > gulp-spawn-mocha > coveralls > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-08-16T07:42:48.897Z'
+  'npm:lodash:20180130':
+    - stex > gulp-jshint > lodash:
+        patched: '2020-08-16T07:42:48.897Z'
+  'npm:mime:20170907':
+    - stex > body-parser > type-is > mime:
+        patched: '2020-08-16T07:42:48.897Z'
+    - stex > nodemailer > mailcomposer > mime:
+        patched: '2020-08-16T07:42:48.897Z'
+    - stex > supertest > superagent > form-data > mime:
+        patched: '2020-08-16T07:42:48.897Z'
+  'npm:minimatch:20160620':
+    - stex > glob > minimatch:
+        patched: '2020-08-16T07:42:48.897Z'
+    - stex > gulp-jshint > minimatch:
+        patched: '2020-08-16T07:42:48.897Z'
+    - stex > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2020-08-16T07:42:48.897Z'
+    - stex > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2020-08-16T07:42:48.897Z'
+    - stex > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2020-08-16T07:42:48.897Z'
+    - stex > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2020-08-16T07:42:48.897Z'
+    - stex > gulp-load-plugins > multimatch > minimatch:
+        patched: '2020-08-16T07:42:48.897Z'
+    - stex > gulp-load-plugins > findup-sync > glob > minimatch:
+        patched: '2020-08-16T07:42:48.897Z'
+    - stex > knex > liftoff > findup-sync > glob > minimatch:
+        patched: '2020-08-16T07:42:48.897Z'
+  'npm:moment:20160126':
+    - stex > Bristol > moment:
+        patched: '2020-08-16T07:42:48.897Z'
+  'npm:qs:20140806-1':
+    - stex > body-parser > qs:
+        patched: '2020-08-16T07:42:48.897Z'
+    - stex > supertest > superagent > qs:
+        patched: '2020-08-16T07:42:48.897Z'
+  'npm:semver:20150403':
+    - stex > knex > semver:
+        patched: '2020-08-16T07:42:48.897Z'
+  'npm:tunnel-agent:20170305':
+    - stex > loggly > request > tunnel-agent:
+        patched: '2020-08-16T07:42:48.897Z'
+    - stex > gulp-coveralls > coveralls > request > tunnel-agent:
+        patched: '2020-08-16T07:42:48.897Z'
+    - stex > gulp-spawn-mocha > coveralls > request > tunnel-agent:
+        patched: '2020-08-16T07:42:48.897Z'

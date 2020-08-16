@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "start": "gulp develop",
-    "test": "NODE_ENV=test gulp db:setup && gulp test && gulp submit-coverage"
+    "test": "NODE_ENV=test gulp db:setup && gulp test && gulp submit-coverage",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "duration-js": "^3.3.4",
@@ -16,11 +18,13 @@
     "stellar-lib": "^0.9.6",
     "stex": "git+https://github.com/stellar/stex.git#master",
     "unirest": "^0.2.7",
-    "validator": "^3.19.0"
+    "validator": "^3.19.0",
+    "snyk": "^1.374.0"
   },
   "devDependencies": {
     "gulp": "^3.8.5",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0"
-  }
+  },
+  "snyk": true
 }

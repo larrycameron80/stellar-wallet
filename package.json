@@ -16,7 +16,7 @@
     "stellar-lib": "^0.9.6",
     "stex": "git+https://github.com/stellar/stex.git#master",
     "unirest": "^0.2.7",
-    "validator": "^3.19.0"
+    "validator": "^13.6.0"
   },
   "devDependencies": {
     "gulp": "^3.8.5",

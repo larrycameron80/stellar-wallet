@@ -1,0 +1,147 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - stex > loggly > request > hawk > hoek:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:hoek:20180212'
+        path: stex > loggly > request > hawk > hoek
+    - stex > loggly > request > hawk > boom > hoek:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:hoek:20180212'
+        path: stex > loggly > request > hawk > boom > hoek
+    - stex > loggly > request > hawk > sntp > hoek:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:hoek:20180212'
+        path: stex > loggly > request > hawk > sntp > hoek
+    - stex > gulp-coveralls > coveralls > request > hawk > hoek:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:hoek:20180212'
+        path: stex > gulp-coveralls > coveralls > request > hawk > hoek
+    - stex > gulp-spawn-mocha > coveralls > request > hawk > hoek:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:hoek:20180212'
+        path: stex > gulp-spawn-mocha > coveralls > request > hawk > hoek
+    - stex > loggly > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:hoek:20180212'
+        path: stex > loggly > request > hawk > cryptiles > boom > hoek
+    - stex > gulp-coveralls > coveralls > request > hawk > boom > hoek:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:hoek:20180212'
+        path: stex > gulp-coveralls > coveralls > request > hawk > boom > hoek
+    - stex > gulp-spawn-mocha > coveralls > request > hawk > boom > hoek:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:hoek:20180212'
+        path: stex > gulp-spawn-mocha > coveralls > request > hawk > boom > hoek
+    - stex > gulp-coveralls > coveralls > request > hawk > sntp > hoek:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:hoek:20180212'
+        path: stex > gulp-coveralls > coveralls > request > hawk > sntp > hoek
+    - stex > gulp-spawn-mocha > coveralls > request > hawk > sntp > hoek:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:hoek:20180212'
+        path: stex > gulp-spawn-mocha > coveralls > request > hawk > sntp > hoek
+    - stex > gulp-coveralls > coveralls > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          stex > gulp-coveralls > coveralls > request > hawk > cryptiles > boom
+          > hoek
+    - stex > gulp-spawn-mocha > coveralls > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          stex > gulp-spawn-mocha > coveralls > request > hawk > cryptiles >
+          boom > hoek
+  'npm:lodash:20180130':
+    - stex > gulp-jshint > lodash:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:lodash:20180130'
+        path: stex > gulp-jshint > lodash
+  'npm:mime:20170907':
+    - stex > body-parser > type-is > mime:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:mime:20170907'
+        path: stex > body-parser > type-is > mime
+    - stex > nodemailer > mailcomposer > mime:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:mime:20170907'
+        path: stex > nodemailer > mailcomposer > mime
+    - stex > supertest > superagent > form-data > mime:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:mime:20170907'
+        path: stex > supertest > superagent > form-data > mime
+  'npm:minimatch:20160620':
+    - stex > glob > minimatch:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:minimatch:20160620'
+        path: stex > glob > minimatch
+    - stex > gulp-jshint > minimatch:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:minimatch:20160620'
+        path: stex > gulp-jshint > minimatch
+    - stex > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:minimatch:20160620'
+        path: stex > gulp > vinyl-fs > glob-stream > minimatch
+    - stex > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:minimatch:20160620'
+        path: stex > gulp > vinyl-fs > glob-stream > glob > minimatch
+    - stex > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:minimatch:20160620'
+        path: stex > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch
+    - stex > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:minimatch:20160620'
+        path: >-
+          stex > gulp > vinyl-fs > glob-watcher > gaze > globule > glob >
+          minimatch
+    - stex > gulp-load-plugins > multimatch > minimatch:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:minimatch:20160620'
+        path: stex > gulp-load-plugins > multimatch > minimatch
+    - stex > gulp-load-plugins > findup-sync > glob > minimatch:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:minimatch:20160620'
+        path: stex > gulp-load-plugins > findup-sync > glob > minimatch
+    - stex > knex > liftoff > findup-sync > glob > minimatch:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:minimatch:20160620'
+        path: stex > knex > liftoff > findup-sync > glob > minimatch
+  'npm:moment:20160126':
+    - stex > Bristol > moment:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:moment:20160126'
+        path: stex > Bristol > moment
+  'npm:qs:20140806-1':
+    - stex > body-parser > qs:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:qs:20140806-1'
+        path: stex > body-parser > qs
+    - stex > supertest > superagent > qs:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:qs:20140806-1'
+        path: stex > supertest > superagent > qs
+  'npm:semver:20150403':
+    - stex > knex > semver:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:semver:20150403'
+        path: stex > knex > semver
+  'npm:tunnel-agent:20170305':
+    - stex > loggly > request > tunnel-agent:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: stex > loggly > request > tunnel-agent
+    - stex > gulp-coveralls > coveralls > request > tunnel-agent:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: stex > gulp-coveralls > coveralls > request > tunnel-agent
+    - stex > gulp-spawn-mocha > coveralls > request > tunnel-agent:
+        patched: '2024-03-05T05:28:51.016Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: stex > gulp-spawn-mocha > coveralls > request > tunnel-agent
